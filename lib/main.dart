@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
 
                     children: [
 
-                      // plus button
+                      // minus button
                       FloatingActionButton(
                         child: const Icon(CupertinoIcons.minus),
                         onPressed: () {
@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
                       ),
                       const SizedBox(width: 20),
 
-                      // minus button
+                      // plus button
                       FloatingActionButton(
                         onPressed: () {
                          CounterCubit.get(context).plusCounter();
